@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Mat",
+      "createdAt": "2015-08-14T18:42:16.475Z"
+    },
+    {
+      "id": 2,
+      "title": "json-server is cool",
+      "author": "Lukas",
+      "createdAt": "2015-08-14T18:42:16.475Z"
+    },
+    {
+      "title": "Hello, world!",
+      "createdAt": "2023-05-08T10:26:00.637Z",
+      "author": "Mat",
+      "id": 3
+    },
+    {
+      "title": "Hello, world!",
+      "createdAt": "2023-05-08T10:26:08.843Z",
+      "author": "Mat",
+      "id": 4
+    },
+    {
+      "title": "Hello, world!",
+      "createdAt": "2023-05-08T10:26:12.670Z",
+      "author": "Mat",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1,
+      "createdAt": "2015-08-14T18:42:16.475Z"
+    }
+  ],
+  "profile": {
+    "name": "typicodes"
+  }
+}
