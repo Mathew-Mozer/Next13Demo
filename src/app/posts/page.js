@@ -6,10 +6,10 @@ export default async function AllPostsPage() {
     cache: 'no-store',
   })
   const posts = await data.json()
-  const randomNum = Math.floor(Math.random() * 4) + 1
-  if (randomNum === 4) {
-    // Throw an error if the random number is 4
-    //throw new Error('Something went wrong!')
+  const randomNum = Math.floor(Math.random() * 6) + 1
+  if (randomNum === 6) {
+    //Throw an error if the random number is 4
+    throw new Error('Something went wrong!')
   }
 
   return (
